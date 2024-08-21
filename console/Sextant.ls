@@ -3,7 +3,6 @@
 
     { string-from-code-point, camel-case } = dependency 'native.String'
     { Num, Bool } = dependency 'primitive.Type'
-    { new-boolean-matrix } = dependency 'primitive.BooleanMatrix'
 
     sextant-key-suffix = <[
       1 2 12 3 13 23 123
