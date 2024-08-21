@@ -22,14 +22,7 @@
         | 'sextant-' => ' '
         | 'sextant-123456' => string-from-code-point 0x2588
 
-        else
-
-          char = sextant-chars[ key ]
-
-          if char is void
-            "invalid key #key"
-          else
-            char
+        else sextant-chars[ key ]
 
     new-sextant-char = ->
 
